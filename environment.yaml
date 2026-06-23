@@ -1,0 +1,14 @@
+name: data_bowl_2026
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - pillow
+  - seaborn
+  - statsmodels
+  - plotly
+  - python-dotenv

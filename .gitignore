@@ -77,6 +77,9 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+# Dev notebooks are not checked in; the writeup notebook is the one exception.
+*.ipynb
+!writeup/writeup.ipynb
 
 # IPython
 profile_default/
@@ -211,3 +214,16 @@ __marimo__/
 
 # Data folder
 data/
+
+# Logs folder
+logs/
+
+# Local backup snapshots (manual safety copies, never committed)
+*_backup/
+
+# Claude
+CLAUDE.md
+.claude/
+
+# VS Code
+.vscode/
