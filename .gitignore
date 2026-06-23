@@ -211,3 +211,10 @@ __marimo__/
 
 # Data folder
 data/
+
+# Claude
+CLAUDE.md
+.claude/
+
+# VS Code
+.vscode/
