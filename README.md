@@ -4,9 +4,9 @@ Repository for code used in the 2026 NFL Big Data Bowl competition.
 
 Kaggle writeup: [Win The Duel](https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/writeups/win-the-duel)
 
-## Win The Rep
+## Win The Duel
 
-This repo implements **"Win The Rep"** — a physics-based **Duel Influence
+This repo implements **"Win The Duel"** — a physics-based **Duel Influence
 Probability (DIP)** model that estimates the probability that a
 man-coverage defender beats the targeted receiver to a thrown ball, both at
 the moment of throw and dynamically while the ball is in flight. It uses
@@ -34,6 +34,11 @@ nfl_data_bowl_2026/
 ├── environment.yaml             # Conda environment spec
 └── .env                         # Local config, not committed (see below)
 ```
+
+`data/` holds the official NFL Big Data Bowl 2026 tracking data. This is
+Kaggle competition data, not original to this repo, so it isn't tracked in
+git — download it from the competition's Kaggle page and place it in
+`data/` before running the pipeline.
 
 ## Environment setup
 
